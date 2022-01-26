@@ -134,28 +134,47 @@ if "Master.csv" not in directory:
     base_frame = pd.DataFrame()
     for file in directory:
         if file[-4:] == ".csv":
-            temp_frame = pd.read_csv(os.path.join(datadir, file), delimiter=';', index_col="Timestamp", parse_dates=True)
-            base_frame = pd.concat([base_frame, temp_frame])
+            try:
+                temp_frame = pd.read_csv(os.path.join(datadir, file), delimiter=';', index_col="Timestamp", parse_dates=True, low_memory=False)
+            except:
+                temp_frame = pd.read_csv(os.path.join(datadir, file), index_col="Timestamp",
+                                         parse_dates=True, low_memory=False)
+            base_frame = base_frame.loc[~base_frame.index.duplicated(keep='last')]
+            temp_frame = temp_frame.loc[~temp_frame.index.duplicated(keep='last')]
+            if all([set(temp_frame.columns) == set(df.columns) for df in [temp_frame, base_frame]]):
+                base_frame = pd.concat([base_frame, temp_frame])
+            else:
+                base_frame = pd.concat([base_frame, temp_frame], axis=1)
         os.remove(os.path.join(datadir, file))
 
     base_frame = (base_frame.reset_index()
             .drop_duplicates(subset='Timestamp', keep='last')
             .set_index('Timestamp').sort_index())
-    # base_frame.replace({",": "."}, regex=True, inplace=True)
+    base_frame.replace({",": "."}, regex=True, inplace=True)
     base_frame.to_csv(os.path.join(datadir, "Master.csv"))
 
 elif len(os.listdir(datadir)) > 1:
-    base_frame = pd.read_csv(os.path.join(datadir, "Master.csv"), index_col="Timestamp", parse_dates=True)
+    try:
+        base_frame = pd.read_csv(os.path.join(datadir, "Master.csv"), delimiter=';', index_col="Timestamp", parse_dates=True, low_memory=False)
+    except:
+        base_frame = pd.read_csv(os.path.join(datadir, "Master.csv"), index_col="Timestamp",
+                                 parse_dates=True, low_memory=False)
+    base_frame = base_frame.loc[~base_frame.index.duplicated(keep='last')]
+    temp_frame = temp_frame.loc[~temp_frame.index.duplicated(keep='last')]
     for file in directory:
         if file[-4:] == ".csv" and file != "Master.csv":
-            temp_frame = pd.read_csv(os.path.join(datadir, file), delimiter=';', index_col="Timestamp", parse_dates=True)
-            base_frame = pd.concat([base_frame, temp_frame])
+            temp_frame = pd.read_csv(os.path.join(datadir, file), delimiter=';', index_col="Timestamp", parse_dates=True,  low_memory=False)
+
+            if all([set(temp_frame.columns) == set(df.columns) for df in [temp_frame, base_frame]]):
+                base_frame = pd.concat([base_frame, temp_frame])
+            else:
+                base_frame = pd.concat([base_frame, temp_frame], axis=1)
         os.remove(os.path.join(datadir, file))
 
     base_frame = (base_frame.reset_index()
             .drop_duplicates(subset='Timestamp', keep='last')
             .set_index('Timestamp').sort_index())
-    # base_frame.replace({",": "."}, regex=True, inplace=True)
+    base_frame.replace({",": "."}, regex=True, inplace=True)
     base_frame.to_csv(os.path.join(datadir, "Master.csv"))
 
 save_name = "Data Analysis Results.xlsx"
@@ -169,7 +188,7 @@ data_list_location = os.path.join(datadir, "Master.csv")
 
 
 
-data = pd.read_csv(data_list_location, index_col="Timestamp", parse_dates=True)
+data = pd.read_csv(data_list_location, index_col="Timestamp", parse_dates=True, low_memory=False)
 data = (data.reset_index()
         .drop_duplicates(subset='Timestamp', keep='last')
         .set_index('Timestamp').sort_index())
