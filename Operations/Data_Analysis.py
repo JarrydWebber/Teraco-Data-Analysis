@@ -160,11 +160,12 @@ elif len(os.listdir(datadir)) > 1:
         base_frame = pd.read_csv(os.path.join(datadir, "Master.csv"), index_col="Timestamp",
                                  parse_dates=True, low_memory=False)
     base_frame = base_frame.loc[~base_frame.index.duplicated(keep='last')]
-    temp_frame = temp_frame.loc[~temp_frame.index.duplicated(keep='last')]
+
     for file in directory:
         if file[-4:] == ".csv" and file != "Master.csv":
             temp_frame = pd.read_csv(os.path.join(datadir, file), delimiter=';', index_col="Timestamp", parse_dates=True,  low_memory=False)
-
+            temp_frame = temp_frame.loc[~temp_frame.index.duplicated(keep='last')]
+            
             if all([set(temp_frame.columns) == set(df.columns) for df in [temp_frame, base_frame]]):
                 base_frame = pd.concat([base_frame, temp_frame])
             else:
