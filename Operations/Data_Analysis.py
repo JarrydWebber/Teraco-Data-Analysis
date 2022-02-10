@@ -145,7 +145,7 @@ if "Master.csv" not in directory:
                 base_frame = pd.concat([base_frame, temp_frame])
             else:
                 base_frame = pd.concat([base_frame, temp_frame], axis=1)
-        os.remove(os.path.join(datadir, file))
+
 
     base_frame = (base_frame.reset_index()
             .drop_duplicates(subset='Timestamp', keep='last')
