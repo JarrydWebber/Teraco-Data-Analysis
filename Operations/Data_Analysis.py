@@ -180,10 +180,12 @@ elif len(os.listdir(datadir)) > 1:
 
 save_name = "Data Analysis Results.xlsx"
 save_path = os.path.join(savedir, save_name)
-writer = pd.ExcelWriter(save_path, engine='xlsxwriter')
+# writer = pd.ExcelWriter(save_path, engine='xlsxwriter')
+writer = pd.ExcelWriter(save_path)
 
 name_list_location = os.path.join(basedir, "Name_list.csv")
-nameing_list = pd.read_csv(name_list_location, index_col=0)
+nameing_list = pd.read_csv(name_list_location, index_col=0, delimiter=";")
+# print (nameing_list)
 
 data_list_location = os.path.join(datadir, "Master.csv")
 
@@ -215,6 +217,7 @@ baseline_data = data[baseline_date1:baseline_date2]
 
 grouped_frame = pd.DataFrame(index=data.index)
 diffed_data = pd.DataFrame(index=data.index)
+
 
 TEMS_list = list(nameing_list["TEM"].unique())
 TYPE_list = list(nameing_list["Type"].unique())
