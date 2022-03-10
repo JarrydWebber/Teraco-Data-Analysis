@@ -1,0 +1,34 @@
+
+
+
+
+PUE
+CT1 - 1.61
+CT2 - Varying
+DB1 - 1.65
+JB1 East - 1.56
+JB1 West - 1.45
+JB2 - 1.62
+JB3 - Varying
+
+
+JB2 Actual energy consumption too high - TEM 1 and TEM 5 - Eugene
+This is a baselining issue, updating to a more recent baseline corrects the issue
+
+
+
+CT1 PUE being too high - Alex
+CT1 TEM 2 
+MLV_A_UPS under reporting - spoken to Petri
+
+A
+HVAC - 186 kW
+UPS - 441 kW
+
+B
+HVAC - 72 kW
+UPS - 340 kW
+
+
+JB3 not pulling most recent data - Wiekus
+Everything seems to be pulling properly on my side. Possibly update python script
