@@ -1,8 +1,0 @@
-,Name,Full Name,TEM,Type,Energy Flow
-0,D_TEM_1_Main_Incomer_8420,DB1_TEM1.D_TEM_1_Main_Incomer_8420#Real Energy Into the Load#kWh,TEM1,Mains,Incoming
-1,DB1_TEM1_Gen_Total_Load_MLVA,DB1_TEM1.DB1_TEM1_Gen_Total_Load_MLVA#Real Energy Into the Load#kWh,TEM1,Generator,Incoming
-2,DB1_TEM1_Gen_Total_Load_MLVB,DB1_TEM1.DB1_TEM1_Gen_Total_Load_MLVB#Real Energy Into the Load#kWh,TEM1,Generator,Incoming
-3,DB1_TEM1_HVAC_A_Supply,DB1_TEM1.DB1_TEM1_HVAC_A_Supply#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
-4,DB1_TEM1_HVAC_B_Supply,DB1_TEM1.DB1_TEM1_HVAC_B_Supply#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
-5,DB1_TEM1_UPS_A_Supply,DB1_TEM1.DB1_TEM1_UPS_A_Supply#Real Energy Into the Load#kWh,TEM1,UPS,Outgoing
-6,DB1_TEM1_UPS_B_Supply,DB1_TEM1.DB1_TEM1_UPS_B_Supply#Real Energy Into the Load#kWh,TEM1,UPS,Outgoing
