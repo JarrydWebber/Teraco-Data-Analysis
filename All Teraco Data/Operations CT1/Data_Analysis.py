@@ -8,6 +8,8 @@ import itertools
 import configparser
 import pathlib
 import math
+from scipy.optimize import nnls as nnls
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, mean_absolute_percentage_error
 
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -83,6 +85,32 @@ def regression(Y_data, X_data, Timeframe, Aggregation_Period, Aggregation_method
 
     return (results)
 
+def nnls_regression(Y_data, X_data, Timeframe, Aggregation_Period, Aggregation_method="mean"):
+    start, end = Timeframe
+    # print (start, end)
+    X_data = X_data[start:end]
+    Y_data = Y_data[start:end]
+
+    if Aggregation_method == "mean":
+        x_reg = X_data.resample(Aggregation_Period).mean()
+        y_reg = Y_data.resample(Aggregation_Period).mean()
+
+    else:
+        x_reg = X_data.resample(Aggregation_Period).sum()
+        y_reg = Y_data.resample(Aggregation_Period).sum()
+
+    # x_reg.interpolate()
+
+    inf = np.isinf(x_reg).sum().sum()
+    nans = x_reg.isna().sum().sum()
+    if inf + nans > 0:
+        # print(inf, nans)
+        x_reg.interpolate(method="backfill", inplace=True)
+    x_reg = sm.add_constant(x_reg)
+
+    results = nnls(x_reg, y_reg)
+
+    return (results)
 
 def parameterisation(Y_data, X_data, Timeframe, Aggregation_Period, Aggregation_method="mean", target_R=0.1, overfitting=True):
     params = []
