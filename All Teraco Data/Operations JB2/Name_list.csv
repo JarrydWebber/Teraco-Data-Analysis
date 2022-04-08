@@ -1,83 +1,83 @@
-;Name;Full Name;TEM;Type;Energy Flow
-0;J2_TEM_1_GCL_UPS_System_A;JB2_TEM1.J2_TEM_1_GCL_UPS_System_A#Real Energy Into the Load#kWh;TEM1;UPS;Outgoing
-1;J2_TEM_1_GCL_UPS_System_B;JB2_TEM1.J2_TEM_1_GCL_UPS_System_B#Real Energy Into the Load#kWh;TEM1;UPS;Outgoing
-2;J2_TEM_1_GCL_UPS_System_C;JB2_TEM1.J2_TEM_1_GCL_UPS_System_C#Real Energy Into the Load#kWh;TEM1;UPS;Outgoing
-3;J2_TEM_1_GEN_A_Supply;JB2_TEM1.J2_TEM_1_GEN_A_Supply#Real Energy Into the Load#kWh;TEM1;Mains;Incoming
-4;J2_TEM_1_GEN_B_Supply;JB2_TEM1.J2_TEM_1_GEN_B_Supply#Real Energy Into the Load#kWh;TEM1;Mains;Incoming
-5;J2_TEM_1_GEN_C_Supply;JB2_TEM1.J2_TEM_1_GEN_C_Supply#Real Energy Into the Load#kWh;TEM1;Mains;Incoming
-6;J2_TEM_1_HVAC_System_A;JB2_TEM1.J2_TEM_1_HVAC_System_A#Real Energy Into the Load#kWh;TEM1;HVAC;Outgoing
-7;J2_TEM_1_HVAC_System_B;JB2_TEM1.J2_TEM_1_HVAC_System_B#Real Energy Into the Load#kWh;TEM1;HVAC;Outgoing
-8;J2_TEM_1_HVAC_System_C;JB2_TEM1.J2_TEM_1_HVAC_System_C#Real Energy Into the Load#kWh;TEM1;HVAC;Outgoing
-9;J2_TEM_1_Main_Incomer_HT;JB2_TEM1.J2_TEM_1_Main_Incomer_HT#Real Energy Into the Load#kWh;TEM1;Mains;Incoming
-14;J2_TEM_1_UPS_System_A;JB2_TEM1.J2_TEM_1_UPS_System_A#Real Energy Into the Load#kWh;TEM1;UPS;Outgoing
-15;J2_TEM_1_UPS_System_B;JB2_TEM1.J2_TEM_1_UPS_System_B#Real Energy Into the Load#kWh;TEM1;UPS;Outgoing
-16;J2_TEM_1_UPS_System_C;JB2_TEM1.J2_TEM_1_UPS_System_C#Real Energy Into the Load#kWh;TEM1;UPS;Outgoing
-17;JB2_TEM2_GCL_UPS_System_A;JB2_TEM2.JB2_TEM2_GCL_UPS_System_A#Real Energy Into the Load#kWh;TEM2;UPS;Outgoing
-18;JB2_TEM2_GCL_UPS_System_B;JB2_TEM2.JB2_TEM2_GCL_UPS_System_B#Real Energy Into the Load#kWh;TEM2;UPS;Outgoing
-19;JB2_TEM2_GCL_UPS_System_C;JB2_TEM2.JB2_TEM2_GCL_UPS_System_C#Real Energy Into the Load#kWh;TEM2;UPS;Outgoing
-20;JB2_TEM2_Gen_A_Supply;JB2_TEM2.JB2_TEM2_Gen_A_Supply#Real Energy Into the Load#kWh;TEM2;Generator;Incoming
-21;JB2_TEM2_Gen_C_Supply;JB2_TEM2.JB2_TEM2_Gen_C_Supply#Real Energy Into the Load#kWh;TEM2;Generator;Incoming
-22;JB2_TEM2_Gen_Supply_B;JB2_TEM2.JB2_TEM2_Gen_Supply_B#Real Energy Into the Load#kWh;TEM2;Generator;Incoming
-23;JB2_TEM2_HVAC_System_A;JB2_TEM2.JB2_TEM2_HVAC_System_A#Real Energy Into the Load#kWh;TEM2;HVAC;Outgoing
-24;JB2_TEM2_HVAC_System_B;JB2_TEM2.JB2_TEM2_HVAC_System_B#Real Energy Into the Load#kWh;TEM2;HVAC;Outgoing
-25;JB2_TEM2_HVAC_System_C;JB2_TEM2.JB2_TEM2_HVAC_System_C#Real Energy Into the Load#kWh;TEM2;HVAC;Outgoing
-26;JB2_TEM2_Main_Incomer_HT;JB2_TEM2.JB2_TEM2_Main_Incomer_HT#Real Energy Into the Load#kWh;TEM2;Mains;Incoming
-31;JB2_TEM2_SDB_UPS;JB2_TEM2.JB2_TEM2_SDB_UPS#Real Energy Into the Load#kWh;TEM2;UPS;Outgoing
-32;JB2_TEM2_UPS_System_A;JB2_TEM2.JB2_TEM2_UPS_System_A#Real Energy Into the Load#kWh;TEM2;UPS;Outgoing
-33;JB2_TEM2_UPS_System_B;JB2_TEM2.JB2_TEM2_UPS_System_B#Real Energy Into the Load#kWh;TEM2;UPS;Outgoing
-34;JB2_TEM2_UPS_System_C;JB2_TEM2.JB2_TEM2_UPS_System_C#Real Energy Into the Load#kWh;TEM2;UPS;Outgoing
-35;J2_TEM3_Generator_A_Supply;JB2_TEM3.J2_TEM3_Generator_A_Supply#Real Energy Into the Load#kWh;TEM3;Generator;Incoming
-36;J2_TEM3_Generator_B_Supply;JB2_TEM3.J2_TEM3_Generator_B_Supply#Real Energy Into the Load#kWh;TEM3;Generator;Incoming
-37;J2_TEM3_Generator_C_Supply;JB2_TEM3.J2_TEM3_Generator_C_Supply#Real Energy Into the Load#kWh;TEM3;Generator;Incoming
-38;J2_TEM3_HVAC_System_A;JB2_TEM3.J2_TEM3_HVAC_System_A#Real Energy Into the Load#kWh;TEM3;HVAC;Outgoing
-39;J2_TEM3_HVAC_System_B;JB2_TEM3.J2_TEM3_HVAC_System_B#Real Energy Into the Load#kWh;TEM3;HVAC;Outgoing
-40;J2_TEM3_HVAC_System_C;JB2_TEM3.J2_TEM3_HVAC_System_C#Real Energy Into the Load#kWh;TEM3;HVAC;Outgoing
-41;J2_TEM3_Main_Incomer_LSVP;JB2_TEM3.J2_TEM3_Main_Incomer_LSVP#Real Energy Into the Load#kWh;TEM3;Mains;Incoming
-42;J2_TEM3_Mechanical_UPS_System_A;JB2_TEM3.J2_TEM3_Mechanical_UPS_System_A#Real Energy Into the Load#kWh;TEM3;HVAC;Outgoing
-43;J2_TEM3_Mechanical_UPS_System_B;JB2_TEM3.J2_TEM3_Mechanical_UPS_System_B#Real Energy Into the Load#kWh;TEM3;HVAC;Outgoing
-44;J2_TEM3_Mechanical_UPS_System_C;JB2_TEM3.J2_TEM3_Mechanical_UPS_System_C#Real Energy Into the Load#kWh;TEM3;HVAC;Outgoing
-49;J2_TEM3_Solar;JB2_TEM3.J2_TEM3_Solar#Real Energy Into the Load#kWh;TEM3;Solar;Incoming
-50;J2_TEM3_UPS_System_A;JB2_TEM3.J2_TEM3_UPS_System_A#Real Energy Into the Load#kWh;TEM3;UPS;Outgoing
-51;J2_TEM3_UPS_System_A_Rectifier_Section;JB2_TEM3.J2_TEM3_UPS_System_A_Rectifier_Section#Real Energy Into the Load#kWh;TEM3;UPS;Outgoing
-52;J2_TEM3_UPS_System_B;JB2_TEM3.J2_TEM3_UPS_System_B#Real Energy Into the Load#kWh;TEM3;UPS;Outgoing
-53;J2_TEM3_UPS_System_B_Rectifier_Section;JB2_TEM3.J2_TEM3_UPS_System_B_Rectifier_Section#Real Energy Into the Load#kWh;TEM3;UPS;Outgoing
-54;J2_TEM3_UPS_System_C;JB2_TEM3.J2_TEM3_UPS_System_C#Real Energy Into the Load#kWh;TEM3;UPS;Outgoing
-55;J2_TEM3_UPS_System_C_Rectifier_Section;JB2_TEM3.J2_TEM3_UPS_System_C_Rectifier_Section#Real Energy Into the Load#kWh;TEM3;UPS;Outgoing
-56;JB2_TEM3_SDB_UPS;JB2_TEM3.JB2_TEM3_SDB_UPS#Real Energy Into the Load#kWh;TEM3;UPS;Outgoing
-57;JB2_TEM4_GCL_UPS_System_A;JB2_TEM4.JB2_TEM4_GCL_UPS_System_A#Real Energy Into the Load#kWh;TEM4;UPS;Outgoing
-58;JB2_TEM4_GCL_UPS_System_B;JB2_TEM4.JB2_TEM4_GCL_UPS_System_B#Real Energy Into the Load#kWh;TEM4;UPS;Outgoing
-59;JB2_TEM4_GCL_UPS_System_C;JB2_TEM4.JB2_TEM4_GCL_UPS_System_C#Real Energy Into the Load#kWh;TEM4;UPS;Outgoing
-60;JB2_TEM4_Gen_A_Supply;JB2_TEM4.JB2_TEM4_Gen_A_Supply#Real Energy Into the Load#kWh;TEM4;Generator;Incoming
-61;JB2_TEM4_Gen_B_Supply;JB2_TEM4.JB2_TEM4_Gen_B_Supply#Real Energy Into the Load#kWh;TEM4;Generator;Incoming
-62;JB2_TEM4_Gen_C_Supply;JB2_TEM4.JB2_TEM4_Gen_C_Supply#Real Energy Into the Load#kWh;TEM4;Generator;Incoming
-63;JB2_TEM4_HVAC_System_A;JB2_TEM4.JB2_TEM4_HVAC_System_A#Real Energy Into the Load#kWh;TEM4;HVAC;Outgoing
-64;JB2_TEM4_HVAC_System_B;JB2_TEM4.JB2_TEM4_HVAC_System_B#Real Energy Into the Load#kWh;TEM4;HVAC;Outgoing
-65;JB2_TEM4_HVAC_System_C;JB2_TEM4.JB2_TEM4_HVAC_System_C#Real Energy Into the Load#kWh;TEM4;HVAC;Outgoing
-66;JB2_TEM4_LSVP;JB2_TEM4.JB2_TEM4_LSVP#Real Energy Into the Load#kWh;TEM4;Mains;Incoming
-71;JB2_TEM4_SDB_UPS_Total;JB2_TEM4.JB2_TEM4_SDB_UPS_Total#Real Energy Into the Load#kWh;TEM4;UPS;Outgoing
-72;JB2_TEM4_UPS_System_A;JB2_TEM4.JB2_TEM4_UPS_System_A#Real Energy Into the Load#kWh;TEM4;UPS;Outgoing
-73;JB2_TEM4_UPS_System_B;JB2_TEM4.JB2_TEM4_UPS_System_B#Real Energy Into the Load#kWh;TEM4;UPS;Outgoing
-74;JB2_TEM4_UPS_System_C;JB2_TEM4.JB2_TEM4_UPS_System_C#Real Energy Into the Load#kWh;TEM4;UPS;Outgoing
-76;JB2_TEM5_GCL_UPS_System_A;JB2_TEM5.JB2_TEM5_GCL_UPS_System_A#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-77;JB2_TEM5_GCL_UPS_System_B;JB2_TEM5.JB2_TEM5_GCL_UPS_System_B#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-78;JB2_TEM5_GCL_UPS_System_C;JB2_TEM5.JB2_TEM5_GCL_UPS_System_C#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-79;JB2_TEM5_GCL_UPS_System_D;JB2_TEM5.JB2_TEM5_GCL_UPS_System_D#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-80;JB2_TEM5_GCL_UPS_System_E;JB2_TEM5.JB2_TEM5_GCL_UPS_System_E#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-81;JB2_TEM5_Gen_A_Supply;JB2_TEM5.JB2_TEM5_Gen_A_Supply#Real Energy Into the Load#kWh;TEM5;Generator;Incoming
-82;JB2_TEM5_Gen_B_Supply;JB2_TEM5.JB2_TEM5_Gen_B_Supply#Real Energy Into the Load#kWh;TEM5;Generator;Incoming
-83;JB2_TEM5_Gen_C_Supply;JB2_TEM5.JB2_TEM5_Gen_C_Supply#Real Energy Into the Load#kWh;TEM5;Generator;Incoming
-84;JB2_TEM5_Gen_D_Supply;JB2_TEM5.JB2_TEM5_Gen_D_Supply#Real Energy Into the Load#kWh;TEM5;Generator;Incoming
-85;JB2_TEM5_Gen_E_Supply;JB2_TEM5.JB2_TEM5_Gen_E_Supply#Real Energy Into the Load#kWh;TEM5;Generator;Incoming
-86;JB2_TEM5_HVAC_System_A;JB2_TEM5.JB2_TEM5_HVAC_System_A#Real Energy Into the Load#kWh;TEM5;HVAC;Outgoing
-87;JB2_TEM5_HVAC_System_B;JB2_TEM5.JB2_TEM5_HVAC_System_B#Real Energy Into the Load#kWh;TEM5;HVAC;Outgoing
-88;JB2_TEM5_HVAC_System_C;JB2_TEM5.JB2_TEM5_HVAC_System_C#Real Energy Into the Load#kWh;TEM5;HVAC;Outgoing
-89;JB2_TEM5_HVAC_System_D;JB2_TEM5.JB2_TEM5_HVAC_System_D#Real Energy Into the Load#kWh;TEM5;HVAC;Outgoing
-90;JB2_TEM5_HVAC_System_E;JB2_TEM5.JB2_TEM5_HVAC_System_E#Real Energy Into the Load#kWh;TEM5;HVAC;Outgoing
-91;JB2_TEM5_Main_Incomer_LVSP_1;JB2_TEM5.JB2_TEM5_Main_Incomer_LVSP_1#Real Energy Into the Load#kWh;TEM5;Mains;Incoming
-92;JB2_TEM5_Main_Incomer_LVSP_2;JB2_TEM5.JB2_TEM5_Main_Incomer_LVSP_2#Real Energy Into the Load#kWh;TEM5;Mains;Incoming
-93;JB2_TEM5_Main_Incomer_LVSP_3;JB2_TEM5.JB2_TEM5_Main_Incomer_LVSP_3#Real Energy Into the Load#kWh;TEM5;Mains;Incoming
-99;JB2_TEM5_UPS_System_A;JB2_TEM5.JB2_TEM5_UPS_System_A#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-100;JB2_TEM5_UPS_System_B;JB2_TEM5.JB2_TEM5_UPS_System_B#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-101;JB2_TEM5_UPS_System_C;JB2_TEM5.JB2_TEM5_UPS_System_C#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-102;JB2_TEM5_UPS_System_D;JB2_TEM5.JB2_TEM5_UPS_System_D#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
-103;JB2_TEM5_UPS_System_E;JB2_TEM5.JB2_TEM5_UPS_System_E#Real Energy Into the Load#kWh;TEM5;UPS;Outgoing
+Column1,Name,Full Name,TEM,Type,Energy Flow
+6,J2_TEM_1_HVAC_System_A,JB2_TEM1.J2_TEM_1_HVAC_System_A#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
+7,J2_TEM_1_HVAC_System_B,JB2_TEM1.J2_TEM_1_HVAC_System_B#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
+8,J2_TEM_1_HVAC_System_C,JB2_TEM1.J2_TEM_1_HVAC_System_C#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
+3,J2_TEM_1_GEN_A_Supply,JB2_TEM1.J2_TEM_1_GEN_A_Supply#Real Energy Into the Load#kWh,TEM1,Mains,Incoming
+4,J2_TEM_1_GEN_B_Supply,JB2_TEM1.J2_TEM_1_GEN_B_Supply#Real Energy Into the Load#kWh,TEM1,Mains,Incoming
+5,J2_TEM_1_GEN_C_Supply,JB2_TEM1.J2_TEM_1_GEN_C_Supply#Real Energy Into the Load#kWh,TEM1,Mains,Incoming
+9,J2_TEM_1_Main_Incomer_HT,JB2_TEM1.J2_TEM_1_Main_Incomer_HT#Real Energy Into the Load#kWh,TEM1,Mains,Incoming
+0,J2_TEM_1_GCL_UPS_System_A,JB2_TEM1.J2_TEM_1_GCL_UPS_System_A#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
+1,J2_TEM_1_GCL_UPS_System_B,JB2_TEM1.J2_TEM_1_GCL_UPS_System_B#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
+2,J2_TEM_1_GCL_UPS_System_C,JB2_TEM1.J2_TEM_1_GCL_UPS_System_C#Real Energy Into the Load#kWh,TEM1,HVAC,Outgoing
+14,J2_TEM_1_UPS_System_A,JB2_TEM1.J2_TEM_1_UPS_System_A#Real Energy Into the Load#kWh,TEM1,UPS,Outgoing
+15,J2_TEM_1_UPS_System_B,JB2_TEM1.J2_TEM_1_UPS_System_B#Real Energy Into the Load#kWh,TEM1,UPS,Outgoing
+16,J2_TEM_1_UPS_System_C,JB2_TEM1.J2_TEM_1_UPS_System_C#Real Energy Into the Load#kWh,TEM1,UPS,Outgoing
+17,JB2_TEM2_GCL_UPS_System_A,JB2_TEM2.JB2_TEM2_GCL_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+18,JB2_TEM2_GCL_UPS_System_B,JB2_TEM2.JB2_TEM2_GCL_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+19,JB2_TEM2_GCL_UPS_System_C,JB2_TEM2.JB2_TEM2_GCL_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+20,JB2_TEM2_Gen_A_Supply,JB2_TEM2.JB2_TEM2_Gen_A_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+21,JB2_TEM2_Gen_C_Supply,JB2_TEM2.JB2_TEM2_Gen_C_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+22,JB2_TEM2_Gen_Supply_B,JB2_TEM2.JB2_TEM2_Gen_Supply_B#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+23,JB2_TEM2_HVAC_System_A,JB2_TEM2.JB2_TEM2_HVAC_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+24,JB2_TEM2_HVAC_System_B,JB2_TEM2.JB2_TEM2_HVAC_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+25,JB2_TEM2_HVAC_System_C,JB2_TEM2.JB2_TEM2_HVAC_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+26,JB2_TEM2_Main_Incomer_HT,JB2_TEM2.JB2_TEM2_Main_Incomer_HT#Real Energy Into the Load#kWh,Loop 1,Mains,Incoming
+31,JB2_TEM2_SDB_UPS,JB2_TEM2.JB2_TEM2_SDB_UPS#Real Energy Into the Load#kWh,Loop 1,GBL,Outgoing
+32,JB2_TEM2_UPS_System_A,JB2_TEM2.JB2_TEM2_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+33,JB2_TEM2_UPS_System_B,JB2_TEM2.JB2_TEM2_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+34,JB2_TEM2_UPS_System_C,JB2_TEM2.JB2_TEM2_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+35,J2_TEM3_Generator_A_Supply,JB2_TEM3.J2_TEM3_Generator_A_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+36,J2_TEM3_Generator_B_Supply,JB2_TEM3.J2_TEM3_Generator_B_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+37,J2_TEM3_Generator_C_Supply,JB2_TEM3.J2_TEM3_Generator_C_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+38,J2_TEM3_HVAC_System_A,JB2_TEM3.J2_TEM3_HVAC_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+39,J2_TEM3_HVAC_System_B,JB2_TEM3.J2_TEM3_HVAC_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+40,J2_TEM3_HVAC_System_C,JB2_TEM3.J2_TEM3_HVAC_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+41,J2_TEM3_Main_Incomer_LSVP,JB2_TEM3.J2_TEM3_Main_Incomer_LSVP#Real Energy Into the Load#kWh,Loop 1,Mains,Incoming
+42,J2_TEM3_Mechanical_UPS_System_A,JB2_TEM3.J2_TEM3_Mechanical_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+43,J2_TEM3_Mechanical_UPS_System_B,JB2_TEM3.J2_TEM3_Mechanical_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+44,J2_TEM3_Mechanical_UPS_System_C,JB2_TEM3.J2_TEM3_Mechanical_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+49,J2_TEM3_Solar,JB2_TEM3.J2_TEM3_Solar#Real Energy Into the Load#kWh,Loop 1,Solar,Incoming
+50,J2_TEM3_UPS_System_A,JB2_TEM3.J2_TEM3_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+51,J2_TEM3_UPS_System_A_Rectifier_Section,JB2_TEM3.J2_TEM3_UPS_System_A_Rectifier_Section#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+52,J2_TEM3_UPS_System_B,JB2_TEM3.J2_TEM3_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+53,J2_TEM3_UPS_System_B_Rectifier_Section,JB2_TEM3.J2_TEM3_UPS_System_B_Rectifier_Section#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+54,J2_TEM3_UPS_System_C,JB2_TEM3.J2_TEM3_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+55,J2_TEM3_UPS_System_C_Rectifier_Section,JB2_TEM3.J2_TEM3_UPS_System_C_Rectifier_Section#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+56,JB2_TEM3_SDB_UPS,JB2_TEM3.JB2_TEM3_SDB_UPS#Real Energy Into the Load#kWh,Loop 1,GBL,Outgoing
+57,JB2_TEM4_GCL_UPS_System_A,JB2_TEM4.JB2_TEM4_GCL_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+58,JB2_TEM4_GCL_UPS_System_B,JB2_TEM4.JB2_TEM4_GCL_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+59,JB2_TEM4_GCL_UPS_System_C,JB2_TEM4.JB2_TEM4_GCL_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+60,JB2_TEM4_Gen_A_Supply,JB2_TEM4.JB2_TEM4_Gen_A_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+61,JB2_TEM4_Gen_B_Supply,JB2_TEM4.JB2_TEM4_Gen_B_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+62,JB2_TEM4_Gen_C_Supply,JB2_TEM4.JB2_TEM4_Gen_C_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+63,JB2_TEM4_HVAC_System_A,JB2_TEM4.JB2_TEM4_HVAC_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+64,JB2_TEM4_HVAC_System_B,JB2_TEM4.JB2_TEM4_HVAC_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+65,JB2_TEM4_HVAC_System_C,JB2_TEM4.JB2_TEM4_HVAC_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+66,JB2_TEM4_LSVP,JB2_TEM4.JB2_TEM4_LSVP#Real Energy Into the Load#kWh,Loop 1,Mains,Incoming
+71,JB2_TEM4_SDB_UPS_Total,JB2_TEM4.JB2_TEM4_SDB_UPS_Total#Real Energy Into the Load#kWh,Loop 1,GBL,Outgoing
+72,JB2_TEM4_UPS_System_A,JB2_TEM4.JB2_TEM4_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+73,JB2_TEM4_UPS_System_B,JB2_TEM4.JB2_TEM4_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+74,JB2_TEM4_UPS_System_C,JB2_TEM4.JB2_TEM4_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+76,JB2_TEM5_GCL_UPS_System_A,JB2_TEM5.JB2_TEM5_GCL_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+77,JB2_TEM5_GCL_UPS_System_B,JB2_TEM5.JB2_TEM5_GCL_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+78,JB2_TEM5_GCL_UPS_System_C,JB2_TEM5.JB2_TEM5_GCL_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+79,JB2_TEM5_GCL_UPS_System_D,JB2_TEM5.JB2_TEM5_GCL_UPS_System_D#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+80,JB2_TEM5_GCL_UPS_System_E,JB2_TEM5.JB2_TEM5_GCL_UPS_System_E#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+81,JB2_TEM5_Gen_A_Supply,JB2_TEM5.JB2_TEM5_Gen_A_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+82,JB2_TEM5_Gen_B_Supply,JB2_TEM5.JB2_TEM5_Gen_B_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+83,JB2_TEM5_Gen_C_Supply,JB2_TEM5.JB2_TEM5_Gen_C_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+84,JB2_TEM5_Gen_D_Supply,JB2_TEM5.JB2_TEM5_Gen_D_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+85,JB2_TEM5_Gen_E_Supply,JB2_TEM5.JB2_TEM5_Gen_E_Supply#Real Energy Into the Load#kWh,Loop 1,Generator,Incoming
+86,JB2_TEM5_HVAC_System_A,JB2_TEM5.JB2_TEM5_HVAC_System_A#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+87,JB2_TEM5_HVAC_System_B,JB2_TEM5.JB2_TEM5_HVAC_System_B#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+88,JB2_TEM5_HVAC_System_C,JB2_TEM5.JB2_TEM5_HVAC_System_C#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+89,JB2_TEM5_HVAC_System_D,JB2_TEM5.JB2_TEM5_HVAC_System_D#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+90,JB2_TEM5_HVAC_System_E,JB2_TEM5.JB2_TEM5_HVAC_System_E#Real Energy Into the Load#kWh,Loop 1,HVAC,Outgoing
+91,JB2_TEM5_Main_Incomer_LVSP_1,JB2_TEM5.JB2_TEM5_Main_Incomer_LVSP_1#Real Energy Into the Load#kWh,Loop 1,Mains,Incoming
+92,JB2_TEM5_Main_Incomer_LVSP_2,JB2_TEM5.JB2_TEM5_Main_Incomer_LVSP_2#Real Energy Into the Load#kWh,Loop 1,Mains,Incoming
+93,JB2_TEM5_Main_Incomer_LVSP_3,JB2_TEM5.JB2_TEM5_Main_Incomer_LVSP_3#Real Energy Into the Load#kWh,Loop 1,Mains,Incoming
+99,JB2_TEM5_UPS_System_A,JB2_TEM5.JB2_TEM5_UPS_System_A#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+100,JB2_TEM5_UPS_System_B,JB2_TEM5.JB2_TEM5_UPS_System_B#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+101,JB2_TEM5_UPS_System_C,JB2_TEM5.JB2_TEM5_UPS_System_C#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+102,JB2_TEM5_UPS_System_D,JB2_TEM5.JB2_TEM5_UPS_System_D#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
+103,JB2_TEM5_UPS_System_E,JB2_TEM5.JB2_TEM5_UPS_System_E#Real Energy Into the Load#kWh,Loop 1,UPS,Outgoing
